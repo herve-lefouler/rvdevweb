@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "version": "sass --version",
+    "compile": "sass assets/scss/app.scss:static/css/app.css",
+    "watch": "sass --watch assets/scss/app.scss:static/css/app.css",
+    "prod:compile": "sass --no-source-map  --style compressed assets/scss/app.scss:static/css/app.css"
+  },
+  "devDependencies": {
+    "sass": "^1.72"
+  }
+}

@@ -1,0 +1,4 @@
+baseURL = 'https://rvdevweb.com'
+languageCode = 'fr-FR'
+title = 'RV Dev Web'
+theme = "rvdevweb"
